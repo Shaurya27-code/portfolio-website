@@ -13,7 +13,8 @@
     "@remixicon/react": "^4.2.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-icons": "^5.2.1"
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^7.5.2"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -26,6 +27,6 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
-    "vite": "^5.3.4"
+    "vite": "^5.4.18"
   }
 }
