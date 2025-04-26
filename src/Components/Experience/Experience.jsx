@@ -46,34 +46,31 @@ const Experience = () => {
           </span>
         </div>
         <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <img className="h-24" src={rubiscape} alt="" />
-            <span className="text-white">
-              <h2 className="leading-tight">Associate Software Engineer, Rubiscape</h2>
-              <p className="text-sm leading-tight font-thin">
-                Aug 2023 - Nov 2024
-              </p>
-              {/* <ul className="text-sm p-2">
-                <li>- Work as software developer</li>
-                <li>- Senior SDE-developer</li>
-              </ul> */}
-            </span>
-          </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <img className="h-14" src={inteliment} alt="" />
-            <span className="text-white">
-              <h2 className="leading-tight">Project Trainee, Inteliment Technologies</h2>
-              <p className="text-sm leading-tight font-thin">
-                April 2023 - July 2023
-              </p>
-              {/* <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
-              </ul> */}
-            </span>
-          </div>
-          
-        </div>
+  <div className="flex flex-col md:flex-row gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+    <img className="h-24 w-full md:w-auto" src={rubiscape} alt="" />
+    <span className="text-white">
+      <h2 className="leading-tight break-words">{/* Ensures text wraps properly */} 
+        Associate Software Engineer, Rubiscape
+      </h2>
+      <p className="text-sm leading-tight font-thin">
+        Aug 2023 - Nov 2024
+      </p>
+    </span>
+  </div>
+
+  <div className="flex flex-col md:flex-row gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+    <img className="h-14 w-full md:w-auto" src={inteliment} alt="" />
+    <span className="text-white">
+      <h2 className="leading-tight break-words">{/* Ensures text wraps properly */}
+        Project Trainee, Inteliment Technologies
+      </h2>
+      <p className="text-sm leading-tight font-thin">
+        April 2023 - July 2023
+      </p>
+    </span>
+  </div>
+</div>
+
       </div>
     </div>
   );
